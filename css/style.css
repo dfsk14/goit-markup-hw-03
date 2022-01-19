@@ -24,6 +24,14 @@ body {
   background-color: var(--primary-white-color);
 }
 
+h3, p {
+  margin: 0;
+}
+
+h2 {
+  padding-top: 0;
+}
+
 .list {
   list-style: none;
   margin: 0;
@@ -546,18 +554,6 @@ img {
   font-size: 16px;
   line-height: 1.87;
   color: var(--secondary-text-color);
-}
-
-h3 {
-  margin: 0;
-}
-
-p {
-  margin: 0;
-}
-
-h2 {
-  padding-top: 0;
 }
 
 .contacts-nav__link:hover,
